@@ -16,7 +16,7 @@ placeholder="Add a new task"
 value={task}
 onChange={(e) => setTask(e.target.value)}
 />
-<button type="submit">Add</button>
+<button type="submit" className='button-add'>Add</button>
 </form>
 );
 };
